@@ -111,60 +111,101 @@ a {
     text-overflow: ellipsis;
 }
 
-@media (max-width: 320px) {
-    .title-page {
-        font-size: 8px;
+@media (max-width: 1201px) {
+    .card {
+        height: 450px;
+    }
+
+    .container-card {
+        width: 35%;
+    }
+    .title-anime {
+        font-size: 20px;
     }
     .s_links {
-        font-size: 12px;
-        padding: 12px;
+        font-size: 30px;
+        padding: 24px;
+    }
+    .title-page {
+        font-size: 32px;
     }
 }
 
-@media (max-width: 480px) {
-    .title-page {
-        font-size: 8px;
+@media (max-width: 1025px) {
+    .card {
+        height: 400px;
+    }
+
+    .container-card {
+        width: 35%;
+    }
+    .title-anime {
+        font-size: 20px;
     }
     .s_links {
-        font-size: 12px;
-        padding: 12px;
+        font-size: 24px;
+        padding: 24px;
+    }
+    .title-page {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 769px) {
+    .card {
+        height: 400px;
+    }
+
+    .container-card {
+        width: 50%;
+    }
+    .title-anime {
+        font-size: 20px;
+    }
+    .s_links {
+        font-size: 28px;
+        padding: 20px;
+    }
+    .title-page {
+        font-size: 22px;
     }
 }
 
 @media (max-width: 481px) {
-    .title-page {
-        font-size: 12px;
-    }
-    .s_links {
-        font-size: 16px;
-        padding: 12px;
-    }
-}
-
-@media (max-width: 700px) {
-    .title-page {
-        font-size: 12px;
-    }
-    .s_links {
-        font-size: 16px;
-        padding: 12px;
-    }
-}
-
-@media (max-width: 700px) {
     .card {
-        height: 200px;
+        height: 300px;
     }
-    .container-card{
+    .container-card {
         width: 50%;
     }
+    .title-anime {
+        font-size: 15px;
+    }
+    .s_links {
+        font-size: 20px;
+        padding: 8px;
+    }
+    .title-page {
+        font-size: 15px;
+    }
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 320px) {
     .card {
-        height: 200px;
+        height: 175px;
     }
-    .container-card{
-        width: 25%;
+
+    .container-card {
+        width: 50%;
+    }
+    .title-anime {
+        font-size: 10px;
+    }
+    .s_links {
+        font-size: 13px;
+        padding: 8px;
+    }
+    .title-page {
+        font-size: 10px;
     }
 }
