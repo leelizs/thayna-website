@@ -18,6 +18,10 @@ const cards = [
     {
         "titleAnime": "Boku no Hero -",
         "image": "https://upload.wikimedia.org/wikipedia/pt/5/5a/Boku_no_Hero_Academia_Volume_1.png",
+    },
+    {
+        "titleAnime": "Boku no Hero -",
+        "image": "https://upload.wikimedia.org/wikipedia/pt/5/5a/Boku_no_Hero_Academia_Volume_1.png",
     }
 ];
 
