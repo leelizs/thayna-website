@@ -111,13 +111,59 @@ a {
     text-overflow: ellipsis;
 }
 
+@media (max-width: 1800px) {
+    .card {
+        height: 400px;
+    }
+    .title-card {
+        font-size: 30px;
+    }
+    .container-card {
+        width: 25%;
+    }
+    .title-anime {
+        font-size: 20px;
+    }
+    .s_links {
+        font-size: 30px;
+        padding: 24px;
+    }
+    .title-page {
+        font-size: 32px;
+    }
+}
+
+@media (max-width: 1400px) {
+    .card {
+        height: 400px;
+    }
+    .title-card {
+        font-size: 30px;
+    }
+    .container-card {
+        width: 25%;
+    }
+    .title-anime {
+        font-size: 20px;
+    }
+    .s_links {
+        font-size: 30px;
+        padding: 24px;
+    }
+    .title-page {
+        font-size: 32px;
+    }
+}
+
 @media (max-width: 1201px) {
     .card {
-        height: 450px;
+        height: 300px;
     }
-
+    .title-card {
+        font-size: 30px;
+    }
     .container-card {
-        width: 35%;
+        width: 25%;
     }
     .title-anime {
         font-size: 20px;
