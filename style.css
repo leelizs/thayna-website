@@ -132,30 +132,41 @@ a {
 }
 
 @media (max-width: 1025px) {
+    .section {
+        display: block;
+    }
+    .title-card {
+        font-size: 40px;
+    }
     .card {
-        height: 400px;
+        height: 600px;
     }
 
     .container-card {
-        width: 35%;
+        width: 50%;
     }
     .title-anime {
-        font-size: 20px;
+        font-size: 30px;
     }
     .s_links {
-        font-size: 24px;
+        font-size: 28px;
         padding: 24px;
     }
     .title-page {
-        font-size: 20px;
+        font-size: 30px;
     }
 }
 
 @media (max-width: 769px) {
-    .card {
-        height: 400px;
+    .section {
+        display: block;
     }
-
+    .card {
+        height: 300px;
+    }
+    .title-card {
+        font-size: 25px;
+    }
     .container-card {
         width: 50%;
     }
@@ -163,7 +174,7 @@ a {
         font-size: 20px;
     }
     .s_links {
-        font-size: 28px;
+        font-size: 24px;
         padding: 20px;
     }
     .title-page {
@@ -172,6 +183,12 @@ a {
 }
 
 @media (max-width: 481px) {
+    .section {
+        display: block;
+    }
+    .title-card {
+        font-size: 20px;
+    }
     .card {
         height: 300px;
     }
@@ -182,7 +199,7 @@ a {
         font-size: 15px;
     }
     .s_links {
-        font-size: 20px;
+        font-size: 17px;
         padding: 8px;
     }
     .title-page {
@@ -194,7 +211,9 @@ a {
     .card {
         height: 175px;
     }
-
+    .title-card {
+        font-size: 15px;
+    }
     .container-card {
         width: 50%;
     }
@@ -204,6 +223,34 @@ a {
     .s_links {
         font-size: 13px;
         padding: 8px;
+    }
+    .title-page {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 250px) {
+    .section {
+        display: block;
+    }
+    .title-card {
+        font-size: 15px;
+    }
+    .card {
+        height: 175px;
+    }
+
+    .container-card {
+        width: 50%;
+    }
+    .title-anime {
+        font-size: 10px;
+    }
+    .s_links {
+        font-size: 12px;
+    }
+    .link {
+        gap: 8px;
     }
     .title-page {
         font-size: 10px;
