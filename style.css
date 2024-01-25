@@ -155,6 +155,28 @@ a {
     }
 }
 
+@media (max-width: 1301px) {
+    .card {
+        height: 300px;
+    }
+    .title-card {
+        font-size: 30px;
+    }
+    .container-card {
+        width: 25%;
+    }
+    .title-anime {
+        font-size: 20px;
+    }
+    .s_links {
+        font-size: 30px;
+        padding: 24px;
+    }
+    .title-page {
+        font-size: 32px;
+    }
+}
+
 @media (max-width: 1201px) {
     .card {
         height: 300px;
