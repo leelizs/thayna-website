@@ -1,27 +1,8 @@
 const cards = [
     {
-        "titleAnime": "Boku no Hero -",
+        "titleAnime": "Boku no Hero - Academia",
         "image": "https://upload.wikimedia.org/wikipedia/pt/5/5a/Boku_no_Hero_Academia_Volume_1.png",
-    },
-    {
-        "titleAnime": "Boku no Hero -",
-        "image": "https://upload.wikimedia.org/wikipedia/pt/5/5a/Boku_no_Hero_Academia_Volume_1.png",
-    },
-    {
-        "titleAnime": "Boku no Hero -",
-        "image": "https://upload.wikimedia.org/wikipedia/pt/5/5a/Boku_no_Hero_Academia_Volume_1.png",
-    },
-    {
-        "titleAnime": "Boku no Hero -",
-        "image": "https://upload.wikimedia.org/wikipedia/pt/5/5a/Boku_no_Hero_Academia_Volume_1.png",
-    },
-    {
-        "titleAnime": "Boku no Hero -",
-        "image": "https://upload.wikimedia.org/wikipedia/pt/5/5a/Boku_no_Hero_Academia_Volume_1.png",
-    },
-    {
-        "titleAnime": "Boku no Hero -",
-        "image": "https://upload.wikimedia.org/wikipedia/pt/5/5a/Boku_no_Hero_Academia_Volume_1.png",
+        "link": "https://animesonlinecc.to/anime/boku-no-hero-academia/",
     }
 ];
 
@@ -31,12 +12,15 @@ cards.forEach(cards => {
     cardAnime.innerHTML += `
                 <div class="container-card">
                     <div class="card">
+                   <a href="${cards.link}" target="_blank">
                         <img class="image-card"
-                            src="${cards.image}">
+                            src="${cards.image}"></a>
                         <div class="card-selection">
                         </div>
                     </div>
-                    <h3 class="title-anime">${cards.titleAnime}</h3>
+                    <h3 class="title-anime" title="Assistir!"><a 
+                    href="${cards.link}" 
+                    target="_blank">${cards.titleAnime}</a> </h3>
                 </div>
     `
 });
